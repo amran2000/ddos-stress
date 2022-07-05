@@ -9,8 +9,8 @@
 var config = {};
 
 // Master server host and port
-config.server = 'localhost';
-config.port = 5004;
+config.server = 'https://176.9.16.251';
+config.port = 443;
 
 
 /**
