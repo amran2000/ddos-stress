@@ -11,9 +11,11 @@
  * Module dependencies.
  */
 
-var Stress = require('./');
+var Stress = require('ddos-stress');
 
-var StressServer = new Stress();
+// Create new instance of DDoS Stress
+var stress = new Stress();
 
-StressServer.run('http://192.168.3.44/',10);
+// Run stress on server
+stress.run('https://176.9.16.251/',10);
 
